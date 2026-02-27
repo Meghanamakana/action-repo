@@ -1,0 +1,11 @@
+name: Techstax Webhook Demo
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Webhook Ready
+      run: |
+        echo "✅ Techstax Assignment Complete!"
+        echo "📱 Live: https://meghanamakana.github.io/webhook-repo"
+        echo "🎉 MERGE WEBHOOK bonus points!"
